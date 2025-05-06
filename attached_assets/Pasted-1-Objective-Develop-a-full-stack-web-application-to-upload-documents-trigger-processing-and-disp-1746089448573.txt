@@ -1,0 +1,38 @@
+1. Objective
+Develop a full-stack web application to upload documents, trigger processing, and display real-time statuses (In-Progress/Extracted/Stopped/Completed/Failed) using WebSockets or polling. At minimum, the backend should integrate with two LLMs with configurable routing logic.
+2. Scope
+•	Frontend: UI to upload the documents, status dashboard, and basic error handling.
+•	Backend: Modular pipeline to route documents to LLMs (e.g., GPT-4, Claude, Gemini) based on document type/length.
+•	LLM Integration: LLM-specific prompts to detect table locations/title
+3. Guidelines
+3.1 Reference Tools: Feel free to explore State Of The Art (SOTA) Open-Source Libraries/Tools to achieve accuracy.
+•	Frontend Tools/Framework: React.js with Material-UI for dashboard components. React-Query (state), react-dropzone (upload)
+•	Real-Time Updates: 
+a.	WebSocket: Socket.IO for bidirectional communication.
+b.	Polling: Poll with 5-second intervals.
+•	Status Visualization:
+a.	Use color-coded badges and progress bars.
+•	Backend Tools:
+a.	API Framework: FastAPI (Python) with modular routers for LLM integration. LangChain (LLM routing), PyPDF2 (metadata extraction)
+b.	Reference LLM Router Configuration:
+Criterion	Choice of LLM	Rationale
+Length > 10 pages	Claude 3	Larger context window
+Financial tables	GPT-4	Superior table detection
+Scanned PDFs	Gemini	Multimodal capabilities
+
+3.2 Leverage AI Code Generation Tools: Feel free to explore any tool; the information below is for reference only.
+•	Cursor/Replit: Generate boilerplate code and debug using GPT-4/Claude and OCR integration.
+•	GitHub Copilot: Auto-generate functions and unit tests.
+3.3	Security Requirements
+•	Exclude PII (API keys, emails) from code, and use environment variables for credentials.
+•	Add a `.gitignore` file to exclude sensitive configs.
+3.4 Acceptance Criteria
+•	Code Submission: 
+a.	Working modular code is uploaded to your GitHub repository with an Apache 2.0 license.
+b.	`requirements.txt` with pinned dependency versions.
+•	Readme File: A comprehensive document covering sections below at a minimum
+a.	The pipeline diagram shows the doc ingestion, processing,  extraction, and output steps.
+b.	Implementation Details: Tools and Libraries used with rationale for tool choices.
+c.	Steps to build and test the project
+4. Sample Document(s)
+Refer Document3.pdf

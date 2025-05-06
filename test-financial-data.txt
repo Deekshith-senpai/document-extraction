@@ -1,0 +1,52 @@
+Balance Sheet
+------------
+Assets:
+- Cash: $120,000
+- Accounts Receivable: $85,000
+- Inventory: $45,000
+- Property & Equipment: $250,000
+- Total Assets: $500,000
+
+Liabilities:
+- Accounts Payable: $30,000
+- Short-term Debt: $25,000
+- Long-term Debt: $120,000
+- Total Liabilities: $175,000
+
+Equity:
+- Common Stock: $100,000
+- Retained Earnings: $225,000
+- Total Equity: $325,000
+
+Profit and Loss Statement
+------------------------
+Revenue:
+- Product Sales: $450,000
+- Service Revenue: $180,000
+- Total Revenue: $630,000
+
+Expenses:
+- Cost of Goods Sold: $220,000
+- Salaries: $160,000
+- Rent: $36,000
+- Marketing: $25,000
+- Utilities: $12,000
+- Other Expenses: $18,000
+- Total Expenses: $471,000
+
+Net Profit: $159,000
+
+Cash Flow Statement
+------------------
+Operating Activities: $140,000
+Investing Activities: -$75,000
+Financing Activities: -$25,000
+Net Cash Flow: $40,000
+Beginning Cash Balance: $80,000
+Ending Cash Balance: $120,000
+
+Notes to Accounts:
+1. The company purchased new equipment worth $50,000 during the fiscal year.
+2. The company secured a new loan of $30,000 for expansion of production facilities.
+3. Inventory valuation method was changed from FIFO to weighted average cost method.
+4. Significant increase in accounts receivable due to extended payment terms offered to key customers.
