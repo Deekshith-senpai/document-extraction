@@ -34,6 +34,10 @@ The application uses a multi-layered approach to document processing:
 ## Preview
 ![image](https://github.com/user-attachments/assets/0ccfb5a1-8b54-4797-941c-74568193be05)
 
+## Project Pipeline
+![image](https://github.com/user-attachments/assets/0d70b076-bfa4-469b-8d6d-8d35c4947059)
+
+
 
 
 ## Getting Started
