@@ -31,6 +31,10 @@ The application uses a multi-layered approach to document processing:
 4. **Data Extraction**: Structured data is extracted from documents using AI
 5. **Data Storage**: Results are stored in the database for later retrieval
 
+## Preview
+![image](https://github.com/user-attachments/assets/0ccfb5a1-8b54-4797-941c-74568193be05)
+
+
 ## Getting Started
 
 ### Prerequisites
