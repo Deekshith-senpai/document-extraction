@@ -2,7 +2,7 @@
 
 A full-stack document processing application that transforms complex document workflows through intelligent AI-powered extraction and analysis.
 
-![DocuAI Platform](generated-icon.png)
+
 
 ## Features
 
@@ -243,12 +243,12 @@ A WebSocket connection is available at `/ws` for real-time updates:
 - Processing progress updates
 - System statistics updates
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
 - Built using Replit
 - UI components powered by shadcn/ui
 - Icons provided by Lucide
+
+
+## I Have also uploaded a demonstration video as a file named 
