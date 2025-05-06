@@ -37,7 +37,7 @@ The application uses a multi-layered approach to document processing:
 
 - Node.js (v16+)
 - PostgreSQL database
-- API keys for at least one of: OpenAI, Anthropic, or Perplexity
+- API keys : OpenAI, Anthropic, or Perplexity
 
 ## Running in VS Code
 
