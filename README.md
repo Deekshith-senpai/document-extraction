@@ -34,6 +34,37 @@ The application uses a multi-layered approach to document processing:
 ## Preview
 ![image](https://github.com/user-attachments/assets/0ccfb5a1-8b54-4797-941c-74568193be05)
 
+## Project pipeline
+File Upload (Upload Zone)
+        │
+        ▼
+File Storage (uploads dir)
+        │
+        ▼
+Initial Metadata Extraction
+        │
+        ▼
+LLM Provider Processing
+        │
+        ▼
+Post-Process & Validation
+        │
+        ▼
+Data Storage (PostgreSQL)
+        │
+        └────────────┐
+                     ▼
+              Results View (UI Display)
+
+LLM Config (User Defined)
+        │
+        ▼
+LLM Router (Smart Logic)
+        └──────────────┐
+                       ▼
+              LLM Provider Processing
+
+
 
 ## Getting Started
 
