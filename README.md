@@ -32,7 +32,8 @@ The application uses a multi-layered approach to document processing:
 5. **Data Storage**: Results are stored in the database for later retrieval
 
 ## Preview
-![image](https://github.com/user-attachments/assets/0ccfb5a1-8b54-4797-941c-74568193be05)
+![image](https://github.com/user-attachments/assets/91ec1717-5922-40a8-ab29-6c5c23b55161)
+
 
 ## Project Pipeline
 ![image](https://github.com/user-attachments/assets/0d70b076-bfa4-469b-8d6d-8d35c4947059)
