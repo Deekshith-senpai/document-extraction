@@ -261,4 +261,3 @@ A WebSocket connection is available at `/ws` for real-time updates:
 - Icons provided by Lucide
 
 
-## I Have also uploaded a demonstration video as a file named 06.05.2025_14.18.38_REC.mp4
